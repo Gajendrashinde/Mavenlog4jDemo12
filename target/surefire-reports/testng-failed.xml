@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.model1.log4jTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.model1.log4jTest">
+        <methods>
+          <include name="loginToGmail"/>
+          <include name="deleteCookie"/>
+          <include name="closeBrowser"/>
+          <include name="dbConnectionClosed"/>
+          <include name="maximizeBrowser"/>
+          <include name="takeScreenShot"/>
+          <include name="openBrowser"/>
+          <include name="getCookie"/>
+          <include name="upUrl"/>
+        </methods>
+      </class> <!-- com.model1.log4jTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.model1.log4jTest] -->

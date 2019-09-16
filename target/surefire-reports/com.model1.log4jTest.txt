@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: com.model1.log4jTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 7.908 sec <<< FAILURE!
+loginToGmail(com.model1.log4jTest)  Time elapsed: 0.779 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AAI', ip: '192.168.0.105', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\OM\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 60cbd1439d4878e92a939cd07ba6d69c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at com.model1.log4jTest.loginToGmail(log4jTest.java:66)
+
+takeScreenShot(com.model1.log4jTest)  Time elapsed: 1.279 sec  <<< FAILURE!
+java.io.IOException: Source 'C:\Users\OM\AppData\Local\Temp\screenshot1164454119136305077.png' exists but is not a directory
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1348)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1246)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:1215)
+	at com.model1.log4jTest.takeScreenShot(log4jTest.java:77)
+
