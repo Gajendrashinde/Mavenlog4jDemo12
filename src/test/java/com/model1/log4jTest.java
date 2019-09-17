@@ -42,6 +42,7 @@ public class log4jTest {
 	@BeforeClass
 	public void maximizeBrowser()
 	{
+		System.out.println("maximized");
 		driver.manage().window().maximize();
 	}
 	@BeforeTest()
